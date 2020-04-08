@@ -3,10 +3,12 @@ import React from "react"
 import Layout from "../components/layout"
 import contactStyles from "./contact.module.scss"
 import { Row, Col } from "react-bootstrap"
+import SEO from "../components/seo"
 
 const contactPage = () => {
     return (
         <Layout>
+            <SEO title="Contact" />
             <div className={contactStyles.container}>
                 <div className={contactStyles.header}>
                     <h1 className={contactStyles.heading}>Contact Us</h1>

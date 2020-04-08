@@ -3,10 +3,12 @@ import React from "react"
 import Layout from "../components/layout"
 import menuStyles from "./menu.module.scss"
 import { Row, Col } from "react-bootstrap"
+import SEO from "../components/seo"
 
 const pricingPage = () => {
     return (
         <Layout>
+            <SEO title="Menu" />
             <div className={menuStyles.container}>
                 <div className={menuStyles.header}>
                     <h1 className={menuStyles.heading}>Our Menu</h1>

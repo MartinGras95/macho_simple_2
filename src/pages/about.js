@@ -1,11 +1,13 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { Row, Col } from "react-bootstrap"
 import Img from 'gatsby-image'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import aboutStyles from "./about.module.scss"
+
 
 
 export default () => {
@@ -31,6 +33,7 @@ export default () => {
 
     return (     
         <Layout>
+            <SEO title="About" />
             <div className={aboutStyles.container}>
                 <div className={aboutStyles.header}>
                   <h1 className={aboutStyles.heading}>About Us</h1>
