@@ -1,0 +1,16 @@
+
+.carousel{
+    padding-left: 2rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .textContainer{
+        padding-top: 1rem;
+    }
+
+    .carousel{
+        padding-left: 0;
+    }
+}
+

@@ -1,0 +1,13 @@
+.nav-link{
+    padding: 0;
+}
+
+.btn{
+    background-color: #df2935;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #b7222c;
+}
+
