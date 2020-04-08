@@ -2,9 +2,9 @@ import React from "react"
 
 import { Carousel,Row,Col } from "react-bootstrap"
 
-import slide1 from "../images/slider1.jpg"
-import slide2 from "../images/slider2.jpg"
-import slide3 from "../images/slider3.jpg"
+import slide1 from "../images/slider1-min.jpg"
+import slide2 from "../images/slider2-min.jpg"
+import slide3 from "../images/slider3-min.jpg"
 
 import carouselStyles from "./carousel.module.scss"
 

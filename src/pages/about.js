@@ -14,14 +14,14 @@ export default () => {
 
   const data = useStaticQuery(graphql`
   query MyQuery {
-    tomatoes:file(relativePath: {eq: "images/tomatoes.jpg"}) {
+    tomatoes:file(relativePath: {eq: "images/tomatoes-min.jpg"}) {
       childImageSharp {
         fixed(width:250 height:250){
           ...GatsbyImageSharpFixed
         }
       }
     }
-    pizza:file(relativePath: {eq: "images/pizza.jpg"}) {
+    pizza:file(relativePath: {eq: "images/pizza-min.jpg"}) {
       childImageSharp {
         fixed(width:250 height:250){
           ...GatsbyImageSharpFixed
