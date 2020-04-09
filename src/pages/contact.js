@@ -27,16 +27,16 @@ const contactPage = () => {
                             <input type="hidden" name="bot-field" />
                             <input type="hidden" name="form-name" value="contact" />
                             <Form.Group controlId="exampleForm.ControlInput1">
-                                <Form.Label>Name</Form.Label>
-                                <Form.Control type="name" placeholder="John Smith" />
+                                <Form.Label htmlFor="name">Name</Form.Label>
+                                <Form.Control type="text" name="name" id="name" placeholder="John Smith" />
                             </Form.Group>
                             <Form.Group controlId="exampleForm.ControlInput1">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="name@example.com" />
+                                <Form.Label htmlFor="email">Email address</Form.Label>
+                                <Form.Control type="email" name="email" id="email" placeholder="name@example.com" />
                             </Form.Group>
                             <Form.Group controlId="exampleForm.ControlTextarea1">
-                                <Form.Label>Example textarea</Form.Label>
-                                <Form.Control as="textarea" rows="3" placeholder="Type your message here..." />
+                                <Form.Label htmlFor="message">Example textarea</Form.Label>
+                                <Form.Control as="textarea" rows="3" name="message" placeholder="Type your message here..." />
                             </Form.Group>
                             <Button variant="primary" type="submit">
                                 Submit
