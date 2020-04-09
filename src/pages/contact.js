@@ -42,7 +42,7 @@ const contactPage = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <form name="contact" netlify>
+                        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                             <p>
                                 <label>Name <input type="text" name="name" /></label>
                             </p>
